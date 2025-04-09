@@ -17,9 +17,21 @@ def horario_de_pico(hora):
    return (5 <= hora < 8) or (hora == 12) or (16 <= hora < 19)
 
 
-# 
+# ░░░░░░░░░░░█▀▀░░█░░░░░░
+# ░░░░░░▄▀▀▀▀░░░░░█▄▄░░░░
+# ░░░░░░█░█░░░░░░░░░░▐░░░
+# ░░░░░░▐▐░░░░░░░░░▄░▐░░░
+# ░░░░░░█░░░░░░░░▄▀▀░▐░░░
+# ░░░░▄▀░░░░░░░░▐░▄▄▀░░░░
+# ░░▄▀░░░▐░░░░░█▄▀░▐░░░░░
+# ░░█░░░▐░░░░░░░░▄░█░░░░░
+# ░░░█▄░░▀▄░░░░▄▀▐░█░░░░░
+# ░░░█▐▀▀▀░▀▀▀▀░░▐░█░░░░░
+# ░░▐█▐▄░░▀░░░░░░▐░█▄▄░░
+# ░░░▀▀░▄███▄▄░░░▐▄▄▄▀░░░ 
+
 while True:
-   # Seleciona aleatoriamente uma linha
+   # Seleciona qualque uma linha
    linha_nome, letra_linha = random.choice(list(linhas.items()))
 
 
@@ -32,7 +44,19 @@ while True:
    estado = "FUNCIONAL" if random.random() < 0.8 else "MANUTENÇÃO"
 
 
-   # 
+#  ⬜⬜⬜⬛⬛⬛⬛⬛⬜⬜⬜
+# ⬜⬜⬛⬜⬜⬜⬜⬜⬛⬜⬜
+# ⬜⬛⬜⬜⬜⬜⬜⬜⬜⬛⬜
+# ⬛⬜⬜⬛⬛⬜⬛⬛⬜⬜⬛
+# ⬛⬜⬛⬛⬛⬜⬛⬛⬛⬜⬛
+# ⬛⬜⬛⬛⬛⬜⬛⬛⬛⬜⬛
+# ⬛⬜⬛⬛⬜⬜⬜⬛⬛⬜⬛
+# ⬛⬜⬜⬜⬜⬛⬜⬜⬜⬜⬛
+# ⬜⬛⬜⬜⬜⬜⬜⬜⬜⬛⬜
+# ⬜⬜⬛⬜⬛⬜⬛⬜⬛⬜⬜
+# ⬜⬜⬛⬜⬛⬜⬛⬜⬛⬜⬜
+# ⬜⬜⬜⬛⬛⬛⬛⬛⬜⬜⬜
+ 
    agora = datetime.now()
    hora = agora.hour
    minuto = agora.minute
