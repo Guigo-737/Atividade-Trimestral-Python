@@ -1,7 +1,7 @@
+#Pietro
 import time
 import random
 from datetime import datetime
-
 
 
 linhas = {
@@ -31,7 +31,7 @@ def horario_de_pico(hora):
 while True:
    # Seleciona qualque uma linha
    linha_nome, letra_linha = random.choice(list(linhas.items()))
-
+#Rodrigo
 
    
    numero_trem = random.randint(1, 10)
@@ -67,7 +67,7 @@ while True:
        qtd_pessoas = random.randint(400, 1000)
 
 
-   
+   #Athur
    print("------------------------------------------------------------------")
    print(f"LINHA: {linha_nome}/Horário: {hora:02d}h{minuto:02d}m")
    print(f"ESTADO DO TREM: {estado}")
