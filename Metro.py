@@ -42,7 +42,7 @@ while True:
    estado = "FUNCIONAL" if random.random() < 0.8 else "MANUTENÇÃO"
 
 
-#  ⬜⬜⬜⬛⬛⬛⬛⬛⬜⬜⬜
+# ⬜⬜⬜⬛⬛⬛⬛⬛⬜⬜⬜
 # ⬜⬜⬛⬜⬜⬜⬜⬜⬛⬜⬜
 # ⬜⬛⬜⬜⬜⬜⬜⬜⬜⬛⬜
 # ⬛⬜⬜⬛⬛⬜⬛⬛⬜⬜⬛
